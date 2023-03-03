@@ -1,0 +1,78 @@
+.nav-page-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: black;
+  min-height: 50px;
+}
+.nav-logo {
+  width: 100px;
+  margin-left: 10px;
+}
+.sm-nav-items-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+  list-style-type: none;
+}
+@media screen and (min-width: 768px) {
+  .sm-nav-items-container {
+    display: none;
+  }
+}
+.lg-nav-items-container {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .lg-nav-items-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    list-style-type: none;
+  }
+}
+.route-link {
+  text-decoration: none;
+}
+.home-icon {
+  color: white;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.job-icon {
+  color: white;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.logout-icon {
+  color: white;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.sm-logout-btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.nav-item-text {
+  color: white;
+  font-size: 15px;
+  font-family: Roboto;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.lg-logout-btn {
+  border: 1px solid transparent;
+  cursor: pointer;
+  background-color: aqua;
+  height: 40px;
+  width: 80px;
+  border-radius: 5px;
+}

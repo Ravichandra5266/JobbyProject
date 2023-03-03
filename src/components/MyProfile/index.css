@@ -1,0 +1,54 @@
+.myprofile-conatainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  margin-top: 10px;
+}
+.myProfile-loading-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.myprofile-content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 90%;
+  min-height: 100px;
+  background-image: url("https://assets.ccbp.in/frontend/react-js/profile-bg.png");
+  background-size: cover;
+  padding-left: 10px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 10px;
+}
+@media screen and (min-width: 768px) {
+  .myprofile-content-container {
+    height: 200px;
+  }
+}
+.myprofile-img {
+  width: 80px;
+}
+.myprofile-title {
+  margin: 0px;
+}
+.myprofile-failure-btn {
+  color: black;
+  background-color: aqua;
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  font-family: Roboto;
+  font-size: 15px;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+.hr-line {
+  width: 100%;
+  border: 1px solid cadetblue;
+}

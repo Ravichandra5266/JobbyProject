@@ -1,0 +1,115 @@
+body {
+  margin: 0px;
+}
+.sp-jobs-item-container {
+  background-color: #2c364c;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 90%;
+  min-height: 100vh;
+  padding: 10px;
+  border-radius: 5px;
+}
+@media screen and (min-width: 768px) {
+  .sp-jobs-item-container {
+    width: 95%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .job-description {
+    width: 70%;
+  }
+}
+.job-description-title {
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: Roboto;
+}
+.flex-description-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ancher-tag {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+.skill-title {
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: Roboto;
+}
+.skills-list-container {
+  display: flex;
+  justify-content: flex-start;
+
+  flex-direction: column;
+  width: 100%;
+  padding: 0px;
+  list-style-type: none;
+}
+@media screen and (min-width: 768px) {
+  .skills-list-container {
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
+.life-comp-title {
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: Roboto;
+}
+.life-comp-para {
+  color: white;
+  font-size: 15px;
+  font-family: Roboto;
+}
+@media screen and (min-width: 768px) {
+  .life-comp-para {
+    width: 70%;
+  }
+}
+.life-comp-img {
+  width: 100%;
+  /* height: 80vh; */
+}
+/* @media screen and (min-width: 768px) {
+  .life-comp-img {
+    width: 500px;
+  }
+} */
+.smlr-jobs-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  list-style: none;
+}
+@media screen and (min-width: 768px) {
+  .smlr-jobs-list-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+}
+.smlr-title {
+  color: white;
+  font-size: 22px;
+  font-family: Roboto;
+  font-weight: bold;
+}
+.link-contaner {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.link-icon {
+  color: white;
+}

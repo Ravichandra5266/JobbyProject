@@ -1,0 +1,32 @@
+.sm-search-Container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  width: 85%;
+  border: 1px solid;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (min-width: 768px) {
+  .sm-search-Container {
+    margin-top: 15px;
+  }
+}
+.search-input {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  width: 100%;
+}
+.search-icon-btn {
+  height: 40px;
+  width: 50px;
+  border: none;
+  cursor: pointer;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}

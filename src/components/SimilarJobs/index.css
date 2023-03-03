@@ -1,0 +1,23 @@
+.smlr-container {
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 5px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 10px;
+  width: 90%;
+}
+@media screen and (min-width: 768px) {
+  .smlr-container {
+    width: 333px;
+    height: 350px;
+  }
+}
+.smlr-job-description {
+  width: 100%;
+  color: white;
+  font-family: Roboto;
+  font-size: 15px;
+}
